@@ -110,7 +110,7 @@ def load_model(spinner=False):
     model_semantics = TFAutoModel.from_pretrained(model_ckpt, from_pt=True)
     
     # Path to your fine-tuned model
-    model_path ="gpt2-finetuned/gpt2-finetuned"
+    model_path ="gpt2-finetuned"
 
     # Load the tokenizer and model
     tokenizer_llm = GPT2Tokenizer.from_pretrained(model_path)
